@@ -1,0 +1,7 @@
+_incoming/
+_verify/
+_build/*.png
+**/source.pdf
+.DS_Store
+*.pyc
+__pycache__/

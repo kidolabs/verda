@@ -1,0 +1,215 @@
+{
+  "title": "American Textbook Reading — Science 1",
+  "lessons": [
+    {
+      "lesson": 1,
+      "part": "Life Science",
+      "title": "Parts of Plants",
+      "pages": [
+        10,
+        11,
+        14
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-01.mp3",
+        "Part 2": "atr-sc-1-02.mp3"
+      }
+    },
+    {
+      "lesson": 2,
+      "part": "Life Science",
+      "title": "Life Cycle of a Plant",
+      "pages": [
+        16,
+        17,
+        20
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-03.mp3",
+        "Part 2": "atr-sc-1-04.mp3"
+      }
+    },
+    {
+      "lesson": 3,
+      "part": "Life Science",
+      "title": "What Plants Need to Grow",
+      "pages": [
+        22,
+        23,
+        26
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-05.mp3",
+        "Part 2": "atr-sc-1-06.mp3"
+      }
+    },
+    {
+      "lesson": 4,
+      "part": "Life Science",
+      "title": "Types of Animals",
+      "pages": [
+        28,
+        29,
+        32
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-07.mp3",
+        "Part 2": "atr-sc-1-08.mp3"
+      }
+    },
+    {
+      "lesson": 5,
+      "part": "Life Science",
+      "title": "Body Parts of Animals",
+      "pages": [
+        34,
+        35,
+        38
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-09.mp3",
+        "Part 2": "atr-sc-1-10.mp3"
+      }
+    },
+    {
+      "lesson": 6,
+      "part": "Life Science",
+      "title": "Where Animals Live",
+      "pages": [
+        40,
+        41,
+        44
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-11.mp3",
+        "Part 2": "atr-sc-1-12.mp3"
+      }
+    },
+    {
+      "lesson": 7,
+      "part": "Earth Science",
+      "title": "Land and Water",
+      "pages": [
+        48,
+        49,
+        52
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-13.mp3",
+        "Part 2": "atr-sc-1-14.mp3"
+      }
+    },
+    {
+      "lesson": 8,
+      "part": "Earth Science",
+      "title": "How Does Earth Change?",
+      "pages": [
+        54,
+        55,
+        58
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-15.mp3",
+        "Part 2": "atr-sc-1-16.mp3"
+      }
+    },
+    {
+      "lesson": 9,
+      "part": "Earth Science",
+      "title": "Natural Resources",
+      "pages": [
+        60,
+        61,
+        64
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-17.mp3",
+        "Part 2": "atr-sc-1-18.mp3"
+      }
+    },
+    {
+      "lesson": 10,
+      "part": "Earth Science",
+      "title": "Rocks and Soil",
+      "pages": [
+        66,
+        67,
+        70
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-19.mp3",
+        "Part 2": "atr-sc-1-20.mp3"
+      }
+    },
+    {
+      "lesson": 11,
+      "part": "Earth Science",
+      "title": "Saving Natural Resources",
+      "pages": [
+        72,
+        73,
+        76
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-21.mp3",
+        "Part 2": "atr-sc-1-22.mp3"
+      }
+    },
+    {
+      "lesson": 12,
+      "part": "Physical Science",
+      "title": "Matter and Senses",
+      "pages": [
+        80,
+        81,
+        84
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-23.mp3",
+        "Part 2": "atr-sc-1-24.mp3"
+      }
+    },
+    {
+      "lesson": 13,
+      "part": "Physical Science",
+      "title": "Observing Matter",
+      "pages": [
+        86,
+        87,
+        90
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-25.mp3",
+        "Part 2": "atr-sc-1-26.mp3"
+      }
+    },
+    {
+      "lesson": 14,
+      "part": "Physical Science",
+      "title": "Solid, Liquid, Gas",
+      "pages": [
+        92,
+        93,
+        96
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-27.mp3",
+        "Part 2": "atr-sc-1-28.mp3"
+      }
+    },
+    {
+      "lesson": 15,
+      "part": "Physical Science",
+      "title": "Matter and Its Changes",
+      "pages": [
+        98,
+        99,
+        102
+      ],
+      "audio": {
+        "Part 1": "atr-sc-1-29.mp3",
+        "Part 2": "atr-sc-1-30.mp3"
+      }
+    }
+  ]
+}
