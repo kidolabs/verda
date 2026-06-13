@@ -40,16 +40,18 @@ for L in lessons:
         cur_part = L["part"]
         pi = [p["name"] for p in parts].index(cur_part) + 1
         body.append(f'<h2 class="parth"><span class="pnum">PART {pi}</span>{esc(cur_part)}</h2>')
-    btns = "".join(
-        f'<button class="nghe" data-src="audio/{esc(mp3)}" '
-        f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
-        f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(kind)}">'
-        f'<span class="ic">🔊</span> {esc(kind)}</button>'
-        for kind, mp3 in L["audio"].items())
-    imgs = "".join(f'<img loading="lazy" src="{pfile(p)}" alt="page {p}">' for p in L["pages"])
+    parts_html = ""
+    for p in L["pages"]:
+        a = L.get("audio_on", {}).get(str(p))
+        if a:
+            parts_html += (f'<div class="aud"><button class="nghe" data-src="audio/{esc(a["mp3"])}" '
+                           f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
+                           f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(a["label"])}">'
+                           f'<span class="ic">🔊</span> Listen — {esc(a["label"])}</button></div>')
+        parts_html += f'<img loading="lazy" src="{pfile(p)}" alt="page {p}">'
     body.append(f'<section class="lesson" id="lesson-{L["lesson"]}">'
                 f'<h3><span class="lnum">Lesson {L["lesson"]}</span>{esc(L["title"])}</h3>'
-                f'<div class="aud">{btns}</div>{imgs}</section>')
+                f'{parts_html}</section>')
 
 CSS = """
   :root{--accent:#2e8b57;--bg:#f4f7f5;--bar:#1e2a24;--red:#e0533d}
