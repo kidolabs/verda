@@ -12,11 +12,11 @@
       ],
       "audio_on": {
         "10": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-01.mp3"
         },
         "14": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-02.mp3"
         }
       }
@@ -32,11 +32,11 @@
       ],
       "audio_on": {
         "16": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-03.mp3"
         },
         "20": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-04.mp3"
         }
       }
@@ -52,11 +52,11 @@
       ],
       "audio_on": {
         "22": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-05.mp3"
         },
         "26": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-06.mp3"
         }
       }
@@ -72,11 +72,11 @@
       ],
       "audio_on": {
         "28": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-07.mp3"
         },
         "32": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-08.mp3"
         }
       }
@@ -92,11 +92,11 @@
       ],
       "audio_on": {
         "34": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-09.mp3"
         },
         "38": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-10.mp3"
         }
       }
@@ -112,11 +112,11 @@
       ],
       "audio_on": {
         "40": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-11.mp3"
         },
         "44": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-12.mp3"
         }
       }
@@ -132,11 +132,11 @@
       ],
       "audio_on": {
         "48": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-13.mp3"
         },
         "52": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-14.mp3"
         }
       }
@@ -152,11 +152,11 @@
       ],
       "audio_on": {
         "54": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-15.mp3"
         },
         "58": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-16.mp3"
         }
       }
@@ -172,11 +172,11 @@
       ],
       "audio_on": {
         "60": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-17.mp3"
         },
         "64": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-18.mp3"
         }
       }
@@ -192,11 +192,11 @@
       ],
       "audio_on": {
         "66": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-19.mp3"
         },
         "70": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-20.mp3"
         }
       }
@@ -212,11 +212,11 @@
       ],
       "audio_on": {
         "72": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-21.mp3"
         },
         "76": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-22.mp3"
         }
       }
@@ -232,11 +232,11 @@
       ],
       "audio_on": {
         "80": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-23.mp3"
         },
         "84": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-24.mp3"
         }
       }
@@ -252,11 +252,11 @@
       ],
       "audio_on": {
         "86": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-25.mp3"
         },
         "90": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-26.mp3"
         }
       }
@@ -272,11 +272,11 @@
       ],
       "audio_on": {
         "92": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-27.mp3"
         },
         "96": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-28.mp3"
         }
       }
@@ -292,11 +292,11 @@
       ],
       "audio_on": {
         "98": {
-          "label": "Part 1",
+          "label": "Part 1 · Vocabulary",
           "mp3": "atr-sc-1-29.mp3"
         },
         "102": {
-          "label": "Part 2",
+          "label": "Part 2 · Reading",
           "mp3": "atr-sc-1-30.mp3"
         }
       }
