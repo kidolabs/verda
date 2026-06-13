@@ -47,7 +47,7 @@
     document.addEventListener('keydown',function(e){var k=(e.key||'').toUpperCase();
       if(e.keyCode===123||((e.ctrlKey||e.metaKey)&&e.shiftKey&&(k==='I'||k==='J'||k==='C'))||((e.ctrlKey||e.metaKey)&&k==='U')){e.preventDefault();bye();}});
     document.addEventListener('contextmenu',function(e){e.preventDefault();});
-    setInterval(function(){if(window.outerWidth-window.innerWidth>220||window.outerHeight-window.innerHeight>220)bye();},1000);})();
+    if(matchMedia('(pointer:fine)').matches){setInterval(function(){if(window.outerWidth-window.innerWidth>220||window.outerHeight-window.innerHeight>220)bye();},1000);}})();
   (function(){var K='atr_ok',g=document.getElementById('gate'),i=document.getElementById('gpin'),e=document.getElementById('gerr');
     if(localStorage.getItem(K)==='1')return;
     g.style.display='flex';document.body.style.overflow='hidden';i.focus();
