@@ -13,7 +13,7 @@ spec = json.loads((bdir / "science_spec.json").read_text())
 def esc(s): return _html.escape(str(s), quote=True)
 
 pages_dir = bdir / "pages"
-all_pages = sorted(int(f.stem[1:]) for f in pages_dir.glob("p*.jpg"))
+all_pages = sorted(int(f.stem[1:]) for f in pages_dir.glob("p*.*"))
 def pfile(pn): return f"pages/{next(pages_dir.glob(f'p{pn:03d}.*')).name}"
 
 lessons = spec["lessons"]
@@ -48,7 +48,7 @@ for L in lessons:
                            f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
                            f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(a["label"])}">'
                            f'<span class="ic">🔊</span> Listen — {esc(a["label"])}</button></div>')
-        parts_html += f'<img loading="lazy" src="{pfile(p)}" alt="page {p}">'
+        parts_html += f'<img loading="lazy" decoding="async" src="{pfile(p)}" alt="page {p}">'
     body.append(f'<section class="lesson" id="lesson-{L["lesson"]}">'
                 f'<h3><span class="lnum">Lesson {L["lesson"]}</span>{esc(L["title"])}</h3>'
                 f'{parts_html}</section>')

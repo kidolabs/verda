@@ -8,7 +8,7 @@ from pathlib import Path
 import fitz
 from PIL import Image, ImageEnhance
 
-bdir = Path(sys.argv[1]); DPI = int(sys.argv[2]) if len(sys.argv) > 2 else 300
+bdir = Path(sys.argv[1]); DPI = int(sys.argv[2]) if len(sys.argv) > 2 else 200
 pages = bdir / "pages"; pages.mkdir(parents=True, exist_ok=True)
 for f in pages.glob("p*.*"): f.unlink()
 
@@ -24,7 +24,7 @@ for i in range(doc.page_count):
     im = ImageEnhance.Color(im).enhance(1.10)
     im = ImageEnhance.Contrast(im).enhance(1.05)
     im = ImageEnhance.Sharpness(im).enhance(1.6)
-    im.save(pages / f"p{i+1:03d}.jpg", "JPEG", quality=92, optimize=True)
-print(f"{bdir.name}: rendered {doc.page_count} pages @ {DPI}dpi", flush=True)
-sz = sum(f.stat().st_size for f in pages.glob('*.jpg'))
+    im.save(pages / f"p{i+1:03d}.webp", "WEBP", quality=82, method=6)
+print(f"{bdir.name}: rendered {doc.page_count} pages @ {DPI}dpi (webp)", flush=True)
+sz = sum(f.stat().st_size for f in pages.glob('*.webp'))
 print(f"total {sz//1024//1024}MB", flush=True)
