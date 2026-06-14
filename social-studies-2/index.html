@@ -30,7 +30,7 @@
   button.yt:hover{filter:brightness(1.08)}
   #ytmodal{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:20px}
   #ytmodal.show{display:flex}
-  #ytmodal .ytbox{width:min(960px,96vw);aspect-ratio:16/9;position:relative}
+  #ytmodal .ytbox{width:min(1280px,96vw);max-height:86vh;aspect-ratio:16/9;position:relative}
   #ytmodal .ytframe,#ytmodal iframe{width:100%;height:100%;border:0;border-radius:10px;background:#000}
   #ytmodal .ytclose{position:absolute;top:-42px;right:0;background:#fff;color:#222;border:none;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer}
   #imgzoom{position:fixed;inset:0;z-index:120;background:rgba(20,16,30,.95);display:none}
@@ -135,7 +135,7 @@
   function closeYt(){ytf.innerHTML='';ytm.classList.remove('show');}
   document.querySelectorAll('button.yt').forEach(function(b){b.onclick=function(){
     if(!au.paused)au.pause();
-    ytf.innerHTML='<iframe src="https://www.youtube.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
+    ytf.innerHTML='<iframe src="https://www.youtube.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&fs=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>';
     ytm.classList.add('show');};});
   ytm.querySelector('.ytclose').onclick=closeYt;
   ytm.onclick=function(e){if(e.target===ytm)closeYt();};
