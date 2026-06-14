@@ -200,7 +200,7 @@ doc = f"""<!doctype html>
 <button id="barToggle" title="Hide/show top bar">▲</button>
 <header class="top"><div class="bar">
   <button id="menuBtn" class="burger">☰</button>
-  <div class="htxt"><div class="bk"><a href="../index.html" style="color:inherit;text-decoration:none">← {esc(title)}</a></div><div class="cur" id="curUnit"></div></div>
+  <div class="htxt"><div class="bk"><a href="https://kidolabs.github.io/shelf7/" style="color:inherit;text-decoration:none">📚 Library</a></div><div class="cur" id="curUnit"></div></div>
 </div><nav id="menu" class="menu">{''.join(menu)}</nav></header>
 <main>{''.join(body)}</main>
 {PLAYER}
