@@ -54,10 +54,12 @@ for L in lessons:
     wb = L.get("workbook")
     wb_html = ""
     if wb:
+        wb_imgs = "".join(f'<img loading="lazy" decoding="async" src="{pfile(p)}" alt="workbook page {p}">'
+                          for p in wb.get("pages", []))
         wb_html = (f'<div class="aud wbaud"><button class="nghe" data-src="audio/{esc(wb["mp3"])}" '
                    f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
                    f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(wb["label"])}">'
-                   f'<span class="ic">🔊</span> Listen — {esc(wb["label"])}</button></div>')
+                   f'<span class="ic">🔊</span> Listen — {esc(wb["label"])}</button></div>{wb_imgs}')
     body.append(f'<section class="lesson" id="lesson-{L["lesson"]}">'
                 f'<h3><span class="lnum">Lesson {L["lesson"]}</span>'
                 f'<span class="ltt">{esc(L["title"])}</span>{yt}</h3>'
