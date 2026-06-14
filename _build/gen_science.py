@@ -49,8 +49,11 @@ for L in lessons:
                            f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(a["label"])}">'
                            f'<span class="ic">🔊</span> Listen — {esc(a["label"])}</button></div>')
         parts_html += f'<img loading="lazy" decoding="async" src="{pfile(p)}" alt="page {p}">'
+    yt = (f'<button class="yt" data-yt="{esc(L["youtube"])}" title="Watch video">'
+          f'<span class="yti">▶</span> Video</button>') if L.get("youtube") else ""
     body.append(f'<section class="lesson" id="lesson-{L["lesson"]}">'
-                f'<h3><span class="lnum">Lesson {L["lesson"]}</span>{esc(L["title"])}</h3>'
+                f'<h3><span class="lnum">Lesson {L["lesson"]}</span>'
+                f'<span class="ltt">{esc(L["title"])}</span>{yt}</h3>'
                 f'{parts_html}</section>')
 
 CSS = """
@@ -75,8 +78,17 @@ CSS = """
   .parth{font-size:22px;color:var(--accent);background:#d8efe0;border-radius:10px;padding:12px 16px;margin:30px 0 14px}
   .parth .pnum{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.08em;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px;margin-right:10px;vertical-align:middle}
   .lesson{margin:22px 0 6px;scroll-margin-top:64px}
-  .lesson h3{font-size:19px;background:#e8f3ec;border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:0 0 10px}
-  .lesson h3 .lnum{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.06em;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px;margin-right:10px;vertical-align:middle}
+  .lesson h3{font-size:19px;background:#e8f3ec;border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:0 0 10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .lesson h3 .lnum{font-size:12px;font-weight:800;letter-spacing:.06em;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px}
+  .lesson h3 .ltt{flex:1;min-width:0}
+  button.yt{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#fff;background:#ff0033;border:none;border-radius:8px;padding:6px 12px;cursor:pointer}
+  button.yt .yti{font-size:11px}
+  button.yt:hover{filter:brightness(1.08)}
+  #ytmodal{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:20px}
+  #ytmodal.show{display:flex}
+  #ytmodal .ytbox{width:min(960px,96vw);aspect-ratio:16/9;position:relative}
+  #ytmodal .ytframe,#ytmodal iframe{width:100%;height:100%;border:0;border-radius:10px;background:#000}
+  #ytmodal .ytclose{position:absolute;top:-42px;right:0;background:#fff;color:#222;border:none;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer}
   .aud{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
   button.nghe{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:#fff;background:var(--accent);border:none;border-radius:10px;padding:9px 15px;cursor:pointer}
   button.nghe:hover{filter:brightness(1.08)}
@@ -147,6 +159,15 @@ JS = """
   function pad(){document.documentElement.style.scrollPaddingTop=(hdr.classList.contains('hidden')?52:hdr.querySelector('.bar').offsetHeight+10)+'px';}
   tg.onclick=function(){hdr.classList.toggle('hidden');tg.textContent=hdr.classList.contains('hidden')?'▼':'▲';pad();};
   window.addEventListener('resize',pad);window.addEventListener('load',pad);pad();
+  // youtube video modal
+  var ytm=document.getElementById('ytmodal'),ytf=ytm.querySelector('.ytframe');
+  function closeYt(){ytf.innerHTML='';ytm.classList.remove('show');}
+  document.querySelectorAll('button.yt').forEach(function(b){b.onclick=function(){
+    if(!au.paused)au.pause();
+    ytf.innerHTML='<iframe src="https://www.youtube.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
+    ytm.classList.add('show');};});
+  ytm.querySelector('.ytclose').onclick=closeYt;
+  ytm.onclick=function(e){if(e.target===ytm)closeYt();};
 """
 
 PLAYER = """<div id="player"><div class="ptop">
@@ -169,6 +190,7 @@ doc = f"""<!doctype html>
 </div><nav id="menu" class="menu">{''.join(menu)}</nav></header>
 <main>{''.join(body)}</main>
 {PLAYER}
+<div id="ytmodal"><div class="ytbox"><button class="ytclose" title="Close">✕</button><div class="ytframe"></div></div></div>
 <script>{JS}</script>
 </body></html>"""
 (bdir / "index.html").write_text(doc, encoding="utf-8")
