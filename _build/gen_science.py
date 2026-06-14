@@ -98,6 +98,12 @@ CSS = """
   #ytmodal .ytbox{width:min(960px,96vw);aspect-ratio:16/9;position:relative}
   #ytmodal .ytframe,#ytmodal iframe{width:100%;height:100%;border:0;border-radius:10px;background:#000}
   #ytmodal .ytclose{position:absolute;top:-42px;right:0;background:#fff;color:#222;border:none;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer}
+  #imgzoom{position:fixed;inset:0;z-index:120;background:rgba(20,16,30,.95);display:none}
+  #imgzoom.show{display:block}
+  #imgzoom .izwrap{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch;text-align:center}
+  #imgzoom img{width:100vw;height:auto;display:inline-block;vertical-align:top;transition:width .15s ease}
+  #imgzoom .izbar{position:fixed;top:12px;right:12px;z-index:121;display:flex;gap:10px}
+  #imgzoom .izbar button{width:48px;height:48px;border:none;border-radius:50%;background:#fff;color:#222;font-size:24px;font-weight:800;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.45)}
   .aud{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
   .wbaud{margin-top:14px}
   button.nghe{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:#fff;background:var(--accent);border:none;border-radius:10px;padding:9px 15px;cursor:pointer}
@@ -182,6 +188,18 @@ JS = """
     ytm.classList.add('show');};});
   ytm.querySelector('.ytclose').onclick=closeYt;
   ytm.onclick=function(e){if(e.target===ytm)closeYt();};
+  // tap a page image to enlarge it (helps low-vision reading); +/- to zoom, drag to pan.
+  var iz=document.getElementById('imgzoom'),izi=iz.querySelector('img'),izw=iz.querySelector('.izwrap'),
+      izLv=[100,150,200,300,400],izIdx=0;
+  function izApply(){izi.style.width=izLv[izIdx]+'vw';}
+  function izOpen(src){izi.src=src;izIdx=0;izApply();iz.classList.add('show');
+    document.body.style.overflow='hidden';izw.scrollTop=0;izw.scrollLeft=0;}
+  function izClose(){iz.classList.remove('show');izi.removeAttribute('src');document.body.style.overflow='';}
+  document.querySelectorAll('img[alt^="page"],img[alt^="workbook"]').forEach(function(im){im.style.cursor='zoom-in';
+    im.addEventListener('click',function(){izOpen(im.currentSrc||im.src);});});
+  iz.querySelector('.izin').onclick=function(){if(izIdx<izLv.length-1){izIdx++;izApply();}};
+  iz.querySelector('.izout').onclick=function(){if(izIdx>0){izIdx--;izApply();}};
+  iz.querySelector('.izx').onclick=izClose;
 """
 
 PLAYER = """<div id="player"><div class="ptop">
@@ -205,6 +223,7 @@ doc = f"""<!doctype html>
 <main>{''.join(body)}</main>
 {PLAYER}
 <div id="ytmodal"><div class="ytbox"><button class="ytclose" title="Close">✕</button><div class="ytframe"></div></div></div>
+<div id="imgzoom"><div class="izbar"><button class="izout" title="Zoom out">−</button><button class="izin" title="Zoom in">+</button><button class="izx" title="Close">✕</button></div><div class="izwrap"><img alt="page"></div></div>
 <script>{JS}</script>
 </body></html>"""
 (bdir / "index.html").write_text(doc, encoding="utf-8")
