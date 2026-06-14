@@ -51,10 +51,17 @@ for L in lessons:
         parts_html += f'<img loading="lazy" decoding="async" src="{pfile(p)}" alt="page {p}">'
     yt = (f'<button class="yt" data-yt="{esc(L["youtube"])}" title="Watch video">'
           f'<span class="yti">▶</span> Video</button>') if L.get("youtube") else ""
+    wb = L.get("workbook")
+    wb_html = ""
+    if wb:
+        wb_html = (f'<div class="aud wbaud"><button class="nghe" data-src="audio/{esc(wb["mp3"])}" '
+                   f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
+                   f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(wb["label"])}">'
+                   f'<span class="ic">🔊</span> Listen — {esc(wb["label"])}</button></div>')
     body.append(f'<section class="lesson" id="lesson-{L["lesson"]}">'
                 f'<h3><span class="lnum">Lesson {L["lesson"]}</span>'
                 f'<span class="ltt">{esc(L["title"])}</span>{yt}</h3>'
-                f'{parts_html}</section>')
+                f'{parts_html}{wb_html}</section>')
 
 CSS = """
   :root{--accent:#2e8b57;--bg:#f4f7f5;--bar:#1e2a24;--red:#e0533d}
@@ -90,6 +97,7 @@ CSS = """
   #ytmodal .ytframe,#ytmodal iframe{width:100%;height:100%;border:0;border-radius:10px;background:#000}
   #ytmodal .ytclose{position:absolute;top:-42px;right:0;background:#fff;color:#222;border:none;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer}
   .aud{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+  .wbaud{margin-top:14px}
   button.nghe{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:#fff;background:var(--accent);border:none;border-radius:10px;padding:9px 15px;cursor:pointer}
   button.nghe:hover{filter:brightness(1.08)}
   button.nghe.playing{background:var(--red)}

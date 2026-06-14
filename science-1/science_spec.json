@@ -20,7 +20,11 @@
           "mp3": "atr-sc-1-02.mp3"
         }
       },
-      "youtube": "cBvV5t_YRQM"
+      "youtube": "cBvV5t_YRQM",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-31.mp3"
+      }
     },
     {
       "lesson": 2,
@@ -41,7 +45,11 @@
           "mp3": "atr-sc-1-04.mp3"
         }
       },
-      "youtube": "nCktNxwt5L0"
+      "youtube": "nCktNxwt5L0",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-32.mp3"
+      }
     },
     {
       "lesson": 3,
@@ -62,7 +70,11 @@
           "mp3": "atr-sc-1-06.mp3"
         }
       },
-      "youtube": "arj7CI0NUrU"
+      "youtube": "arj7CI0NUrU",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-33.mp3"
+      }
     },
     {
       "lesson": 4,
@@ -83,7 +95,11 @@
           "mp3": "atr-sc-1-08.mp3"
         }
       },
-      "youtube": "c-2EYsOl4rA"
+      "youtube": "c-2EYsOl4rA",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-34.mp3"
+      }
     },
     {
       "lesson": 5,
@@ -104,7 +120,11 @@
           "mp3": "atr-sc-1-10.mp3"
         }
       },
-      "youtube": "IQbBqn4E68o"
+      "youtube": "IQbBqn4E68o",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-35.mp3"
+      }
     },
     {
       "lesson": 6,
@@ -125,7 +145,11 @@
           "mp3": "atr-sc-1-12.mp3"
         }
       },
-      "youtube": "47hSAqmb5vE"
+      "youtube": "47hSAqmb5vE",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-36.mp3"
+      }
     },
     {
       "lesson": 7,
@@ -146,7 +170,11 @@
           "mp3": "atr-sc-1-14.mp3"
         }
       },
-      "youtube": "BWri4Bcf6B8"
+      "youtube": "BWri4Bcf6B8",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-37.mp3"
+      }
     },
     {
       "lesson": 8,
@@ -167,7 +195,11 @@
           "mp3": "atr-sc-1-16.mp3"
         }
       },
-      "youtube": "LB2N8SkmkdA"
+      "youtube": "LB2N8SkmkdA",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-38.mp3"
+      }
     },
     {
       "lesson": 9,
@@ -188,7 +220,11 @@
           "mp3": "atr-sc-1-18.mp3"
         }
       },
-      "youtube": "lf0Hkng-Jlc"
+      "youtube": "lf0Hkng-Jlc",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-39.mp3"
+      }
     },
     {
       "lesson": 10,
@@ -209,7 +245,11 @@
           "mp3": "atr-sc-1-20.mp3"
         }
       },
-      "youtube": "3cCMkZXm4Ts"
+      "youtube": "3cCMkZXm4Ts",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-40.mp3"
+      }
     },
     {
       "lesson": 11,
@@ -230,7 +270,11 @@
           "mp3": "atr-sc-1-22.mp3"
         }
       },
-      "youtube": "PxasHbbPK1s"
+      "youtube": "PxasHbbPK1s",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-41.mp3"
+      }
     },
     {
       "lesson": 12,
@@ -251,7 +295,11 @@
           "mp3": "atr-sc-1-24.mp3"
         }
       },
-      "youtube": "Z922FqIAOyU"
+      "youtube": "Z922FqIAOyU",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-42.mp3"
+      }
     },
     {
       "lesson": 13,
@@ -272,7 +320,11 @@
           "mp3": "atr-sc-1-26.mp3"
         }
       },
-      "youtube": "XhVWf_dp3Hw"
+      "youtube": "XhVWf_dp3Hw",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-43.mp3"
+      }
     },
     {
       "lesson": 14,
@@ -293,7 +345,11 @@
           "mp3": "atr-sc-1-28.mp3"
         }
       },
-      "youtube": "SPT5g9lFXGo"
+      "youtube": "SPT5g9lFXGo",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-44.mp3"
+      }
     },
     {
       "lesson": 15,
@@ -314,7 +370,11 @@
           "mp3": "atr-sc-1-30.mp3"
         }
       },
-      "youtube": "bshhIUYZq0E"
+      "youtube": "bshhIUYZq0E",
+      "workbook": {
+        "label": "Workbook",
+        "mp3": "atr-sc-1-45.mp3"
+      }
     }
   ]
 }
