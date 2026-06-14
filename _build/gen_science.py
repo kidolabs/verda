@@ -71,6 +71,7 @@ CSS = """
   html{scroll-behavior:smooth;scroll-padding-top:64px}
   body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#222}
   header.top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:2px solid var(--accent);box-shadow:0 2px 6px rgba(0,0,0,.08)}
+  header.top.hidden{display:none}
   .bar{display:flex;align-items:center;gap:12px;padding:10px 14px}
   .burger{border:none;background:var(--accent);color:#fff;width:40px;height:40px;border-radius:10px;font-size:19px;cursor:pointer;flex:none}
   .htxt{min-width:0}
@@ -121,6 +122,8 @@ CSS = """
   #player .pplay{width:48px;height:48px;border-radius:50%;background:var(--red)!important;font-size:21px;display:flex;align-items:center;justify-content:center}
   #player .pright{display:flex;align-items:center;gap:8px;flex:none}
   #player .pright button{background:#33453c;border:none;color:#fff;border-radius:8px;padding:7px 11px;font-size:13px;cursor:pointer}
+  #player.mini{left:auto;right:10px;bottom:10px;width:auto;border-radius:28px;padding:6px 8px}
+  #player.mini .pinfo,#player.mini .pseek,#player.mini .pspeed,#player.mini .plist{display:none}
   #player .pseek{display:flex;align-items:center;gap:10px;font-size:12px;color:#aebfb4;margin-top:8px}
   #player .pseek input{flex:1;accent-color:var(--red)}
   @media(max-width:820px){#player .ptop{flex-wrap:wrap}#player .pinfo{flex:1 0 100%;order:-1;margin-bottom:6px}#player .ptitle{font-size:17px;white-space:normal}#player .pctrl{flex:1;justify-content:center}}
@@ -157,7 +160,8 @@ JS = """
   elPlay.onclick=function(){au.paused?au.play():au.pause();};
   P.querySelector('.pprev').onclick=function(){load(cur-1);};
   P.querySelector('.pnext').onclick=function(){load(cur+1);};
-  P.querySelector('.pclose').onclick=function(){au.pause();P.classList.remove('show');cur=-1;mark();};
+  P.querySelector('.pclose').onclick=function(){au.pause();P.classList.remove('show');P.classList.remove('mini');cur=-1;mark();};
+  P.querySelector('.pmin').onclick=function(){P.classList.toggle('mini');this.textContent=P.classList.contains('mini')?'▴':'▾';};
   elSpeed.onclick=function(){si=(si+1)%speeds.length;au.playbackRate=speeds[si];elSpeed.textContent=speeds[si]+'x';};
   P.querySelector('.plist').onclick=function(){if(cur>=0)btns[cur].scrollIntoView({block:'center'});};
   au.addEventListener('play',mark);au.addEventListener('pause',mark);
@@ -205,7 +209,7 @@ JS = """
 PLAYER = """<div id="player"><div class="ptop">
   <div class="pinfo"><div class="punit"></div><div class="ptitle"></div></div>
   <div class="pctrl"><button class="pprev">⏮</button><button class="pplay">▶</button><button class="pnext">⏭</button></div>
-  <div class="pright"><button class="pspeed">1x</button><button class="plist">☰</button><button class="pclose">✕</button></div>
+  <div class="pright"><button class="pspeed">1x</button><button class="plist">☰</button><button class="pmin" title="Thu nhỏ">▾</button><button class="pclose">✕</button></div>
   </div><div class="pseek"><span class="cur2">0:00</span><input type="range" min="0" max="100" value="0"><span class="rem">0:00</span></div></div>"""
 
 doc = f"""<!doctype html>
