@@ -58,7 +58,11 @@
           "mp3": "atr-ss-3-06.mp3"
         }
       },
-      "youtube": "U_mpHEiOJIY"
+      "youtube": "U_mpHEiOJIY",
+      "full": {
+        "label": "Full Unit",
+        "mp3": "unit3-full.mp3"
+      }
     },
     {
       "lesson": 4,
@@ -96,7 +100,11 @@
           "mp3": "atr-ss-3-09.mp3"
         }
       },
-      "youtube": "GvKRt5kHFAM"
+      "youtube": "GvKRt5kHFAM",
+      "full": {
+        "label": "Full Unit",
+        "mp3": "unit5-full.mp3"
+      }
     },
     {
       "lesson": 6,

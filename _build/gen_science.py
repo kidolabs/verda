@@ -60,10 +60,18 @@ for L in lessons:
                    f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
                    f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(wb["label"])}">'
                    f'<span class="ic">🔊</span> Listen — {esc(wb["label"])}</button></div>{wb_imgs}')
+    # fallback Full Unit audio (for lessons whose Part 1/2 file is missing on the server)
+    full = L.get("full")
+    full_html = ""
+    if full:
+        full_html = (f'<div class="aud wbaud"><button class="nghe" data-src="audio/{esc(full["mp3"])}" '
+                     f'data-unit="Lesson {L["lesson"]} · {esc(L["part"])}" '
+                     f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {esc(full["label"])}">'
+                     f'<span class="ic">🔊</span> Listen — {esc(full["label"])} (whole lesson)</button></div>')
     body.append(f'<section class="lesson" id="lesson-{L["lesson"]}">'
                 f'<h3><span class="lnum">Lesson {L["lesson"]}</span>'
                 f'<span class="ltt">{esc(L["title"])}</span>{yt}</h3>'
-                f'{parts_html}{wb_html}</section>')
+                f'{parts_html}{wb_html}{full_html}</section>')
 
 CSS = """
   :root{--accent:#2e8b57;--bg:#f4f7f5;--bar:#1e2a24;--red:#e0533d}

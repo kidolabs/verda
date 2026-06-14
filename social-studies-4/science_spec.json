@@ -37,7 +37,11 @@
           "mp3": "atr-ss-4-03.mp3"
         }
       },
-      "youtube": "2Vg2C3EiLIA"
+      "youtube": "2Vg2C3EiLIA",
+      "full": {
+        "label": "Full Unit",
+        "mp3": "unit2-full.mp3"
+      }
     },
     {
       "lesson": 3,
@@ -159,7 +163,11 @@
           "mp3": "atr-ss-4-15.mp3"
         }
       },
-      "youtube": "VT_jyQZbxq8"
+      "youtube": "VT_jyQZbxq8",
+      "full": {
+        "label": "Full Unit",
+        "mp3": "unit8-full.mp3"
+      }
     },
     {
       "lesson": 9,
@@ -260,7 +268,11 @@
           "mp3": "atr-ss-4-26.mp3"
         }
       },
-      "youtube": "2fi9ygJYLuo"
+      "youtube": "2fi9ygJYLuo",
+      "full": {
+        "label": "Full Unit",
+        "mp3": "unit13-full.mp3"
+      }
     },
     {
       "lesson": 14,
@@ -298,7 +310,11 @@
           "mp3": "atr-ss-4-30.mp3"
         }
       },
-      "youtube": null
+      "youtube": null,
+      "full": {
+        "label": "Full Unit",
+        "mp3": "unit15-full.mp3"
+      }
     }
   ]
 }

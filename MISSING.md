@@ -1,6 +1,4 @@
-# Phần thiếu (audio/video không có trên server NXB)
-
-Các phần dưới đây nhà xuất bản (wcbooks) **không cung cấp** trên web nên reader không có — anh mở web gốc kiểm tra nếu cần.
+# Phần thiếu / fallback (do server NXB)
 
 
 ## Science 1
@@ -13,7 +11,7 @@ Các phần dưới đây nhà xuất bản (wcbooks) **không cung cấp** trê
 - ✅ Đầy đủ
 
 ## Science 4
-- L6 Earth's Structure — **thiếu video**
+- L6 Earth's Structure — **thiếu video** (NXB không có)
 
 ## Social Studies 1
 - ✅ Đầy đủ
@@ -22,16 +20,13 @@ Các phần dưới đây nhà xuất bản (wcbooks) **không cung cấp** trê
 - ✅ Đầy đủ
 
 ## Social Studies 3
-- L3 Types of Communities — **thiếu audio Part 1 (Vocabulary)**
-- L5 Voting for Leaders — **thiếu audio Part 2 (Reading)**
+- L3 Types of Communities — thiếu audio Part 1 (Vocabulary) → **đã thay bằng Full Unit (cả bài)**
+- L5 Voting for Leaders — thiếu audio Part 2 (Reading) → **đã thay bằng Full Unit (cả bài)**
 
 ## Social Studies 4
-- L2 Various Celebrations — **thiếu audio Part 2 (Reading)**
-- L8 The End of Slavery — **thiếu audio Part 2 (Reading)**
-- L9 Changes in People's Lives — **thiếu video**
-- L13 Maps and Locations — **thiếu audio Part 1 (Vocabulary)**
-- L15 Earth's Resources — **thiếu audio Part 1 (Vocabulary)**
-- L15 Earth's Resources — **thiếu video**
-
----
-**Tổng: 9 phần thiếu.** (Trang đọc + ảnh đầy đủ cho tất cả; chỉ thiếu 1 số file audio/video gốc.)
+- L2 Various Celebrations — thiếu audio Part 2 (Reading) → **đã thay bằng Full Unit (cả bài)**
+- L8 The End of Slavery — thiếu audio Part 2 (Reading) → **đã thay bằng Full Unit (cả bài)**
+- L9 Changes in People's Lives — **thiếu video** (NXB không có)
+- L13 Maps and Locations — thiếu audio Part 1 (Vocabulary) → **đã thay bằng Full Unit (cả bài)**
+- L15 Earth's Resources — thiếu audio Part 1 (Vocabulary) → **đã thay bằng Full Unit (cả bài)**
+- L15 Earth's Resources — **thiếu video** (NXB không có)
