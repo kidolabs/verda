@@ -25,8 +25,8 @@ if "slowAES" in html:
 
 base = re.search(r"mp3/(atr-[a-z0-9-]+)/", html).group(1)   # e.g. atr-sc-2
 lessons = {}
-for m in re.finditer(r"number:\s*(\d+),\s*title:\s*'([^']+)',\s*youtubeUs:\s*'https://youtu\.be/([A-Za-z0-9_-]{11})'.*?tracks:\s*\[(.*?)\]\s*\}", html, re.S):
-    n = int(m.group(1)); title = m.group(2).strip(); yid = m.group(3); tr = m.group(4)
+for m in re.finditer(r"number:\s*(\d+),\s*title:\s*(?:'([^']*)'|\"([^\"]*)\"),\s*youtubeUs:\s*'https://youtu\.be/([A-Za-z0-9_-]{11})'.*?tracks:\s*\[(.*?)\]\s*\}", html, re.S):
+    n = int(m.group(1)); title = (m.group(2) or m.group(3)).strip(); yid = m.group(4); tr = m.group(5)
     parts = dict((lab, mp3) for lab, mp3 in re.findall(r"\['Lesson \d+ — ([^']+)','mp3/[^/]+/([^']+)'\]", tr))
     lessons[str(n)] = {"title": title, "youtube": yid,
                        "Part 1": parts.get("Part 1"), "Part 2": parts.get("Part 2"),

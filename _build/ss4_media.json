@@ -3,7 +3,7 @@
   "url": "https://wcbooks.cafe24.com/media/american-textbook-reading-ss4.html",
   "mp3_dir": "atr-ss-4",
   "cookie": "CUPID=42e4fa83a9cbfa5bf27746aa248c57b3",
-  "n_lessons": 13,
+  "n_lessons": 15,
   "lessons": {
     "1": {
       "title": "Different Cultures",
@@ -61,6 +61,13 @@
       "Part 2": "atr-ss-4-16.mp3",
       "Workbook": "atr-ss-4-38.mp3"
     },
+    "9": {
+      "title": "Changes in People's Lives",
+      "youtube": "QXR_brTs2ws",
+      "Part 1": "atr-ss-4-17.mp3",
+      "Part 2": "atr-ss-4-18.mp3",
+      "Workbook": "atr-ss-4-39.mp3"
+    },
     "10": {
       "title": "Work and Income",
       "youtube": "s-VXs59t7Ec",
@@ -96,19 +103,12 @@
       "Part 2": "atr-ss-4-28.mp3",
       "Workbook": "atr-ss-4-44.mp3"
     },
-    "9": {
-      "title": "Changes in People's Lives",
-      "youtube": null,
-      "Part 1": "atr-ss-4-17.mp3",
-      "Part 2": "atr-ss-4-18.mp3",
-      "Workbook": null
-    },
     "15": {
       "title": "Earth's Resources",
-      "youtube": null,
+      "youtube": "f2QPlrdMFzg",
       "Part 1": "atr-ss-4-29.mp3",
       "Part 2": "atr-ss-4-30.mp3",
-      "Workbook": null
+      "Workbook": "atr-ss-4-45.mp3"
     }
   }
 }
