@@ -1,0 +1,114 @@
+{
+  "code": "ss4",
+  "url": "https://wcbooks.cafe24.com/media/american-textbook-reading-ss4.html",
+  "mp3_dir": "atr-ss-4",
+  "cookie": "CUPID=42e4fa83a9cbfa5bf27746aa248c57b3",
+  "n_lessons": 13,
+  "lessons": {
+    "1": {
+      "title": "Different Cultures",
+      "youtube": "bkaLrclFTZI",
+      "Part 1": "atr-ss-4-01.mp3",
+      "Part 2": "atr-ss-4-02.mp3",
+      "Workbook": "atr-ss-4-31.mp3"
+    },
+    "2": {
+      "title": "Various Celebrations",
+      "youtube": "2Vg2C3EiLIA",
+      "Part 1": "atr-ss-4-03.mp3",
+      "Part 2": "atr-ss-4-04.mp3",
+      "Workbook": "atr-ss-4-32.mp3"
+    },
+    "3": {
+      "title": "We Are Part of the World",
+      "youtube": "CZ48CoJoXc8",
+      "Part 1": "atr-ss-4-05.mp3",
+      "Part 2": "atr-ss-4-06.mp3",
+      "Workbook": "atr-ss-4-33.mp3"
+    },
+    "4": {
+      "title": "Local Government",
+      "youtube": "XXAeXYv3FyA",
+      "Part 1": "atr-ss-4-07.mp3",
+      "Part 2": "atr-ss-4-08.mp3",
+      "Workbook": "atr-ss-4-34.mp3"
+    },
+    "5": {
+      "title": "Federal Government",
+      "youtube": "fL0RqgJk1Qk",
+      "Part 1": "atr-ss-4-09.mp3",
+      "Part 2": "atr-ss-4-10.mp3",
+      "Workbook": "atr-ss-4-35.mp3"
+    },
+    "6": {
+      "title": "American Heritage",
+      "youtube": "_23j5WVX4js",
+      "Part 1": "atr-ss-4-11.mp3",
+      "Part 2": "atr-ss-4-12.mp3",
+      "Workbook": "atr-ss-4-36.mp3"
+    },
+    "7": {
+      "title": "Go West",
+      "youtube": "b5JNzInsTX4",
+      "Part 1": "atr-ss-4-13.mp3",
+      "Part 2": "atr-ss-4-14.mp3",
+      "Workbook": "atr-ss-4-37.mp3"
+    },
+    "8": {
+      "title": "The End of Slavery",
+      "youtube": "VT_jyQZbxq8",
+      "Part 1": "atr-ss-4-15.mp3",
+      "Part 2": "atr-ss-4-16.mp3",
+      "Workbook": "atr-ss-4-38.mp3"
+    },
+    "10": {
+      "title": "Work and Income",
+      "youtube": "s-VXs59t7Ec",
+      "Part 1": "atr-ss-4-19.mp3",
+      "Part 2": "atr-ss-4-20.mp3",
+      "Workbook": "atr-ss-4-40.mp3"
+    },
+    "11": {
+      "title": "Making Money Choices",
+      "youtube": "fZDdwAXTX7M",
+      "Part 1": "atr-ss-4-21.mp3",
+      "Part 2": "atr-ss-4-22.mp3",
+      "Workbook": "atr-ss-4-41.mp3"
+    },
+    "12": {
+      "title": "In the Bank",
+      "youtube": "1rhJCnYmx40",
+      "Part 1": "atr-ss-4-23.mp3",
+      "Part 2": "atr-ss-4-24.mp3",
+      "Workbook": "atr-ss-4-42.mp3"
+    },
+    "13": {
+      "title": "Maps and Locations",
+      "youtube": "2fi9ygJYLuo",
+      "Part 1": "atr-ss-4-25.mp3",
+      "Part 2": "atr-ss-4-26.mp3",
+      "Workbook": "atr-ss-4-43.mp3"
+    },
+    "14": {
+      "title": "Various Landforms",
+      "youtube": "rCrCsUNuSqk",
+      "Part 1": "atr-ss-4-27.mp3",
+      "Part 2": "atr-ss-4-28.mp3",
+      "Workbook": "atr-ss-4-44.mp3"
+    },
+    "9": {
+      "title": "Changes in People's Lives",
+      "youtube": null,
+      "Part 1": "atr-ss-4-17.mp3",
+      "Part 2": "atr-ss-4-18.mp3",
+      "Workbook": null
+    },
+    "15": {
+      "title": "Earth's Resources",
+      "youtube": null,
+      "Part 1": "atr-ss-4-29.mp3",
+      "Part 2": "atr-ss-4-30.mp3",
+      "Workbook": null
+    }
+  }
+}

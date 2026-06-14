@@ -1,0 +1,114 @@
+{
+  "code": "sc4",
+  "url": "https://wcbooks.cafe24.com/media/american-textbook-reading-sc4.html",
+  "mp3_dir": "atr-sc-4",
+  "cookie": "CUPID=42e4fa83a9cbfa5bf27746aa248c57b3",
+  "n_lessons": 15,
+  "lessons": {
+    "1": {
+      "title": "Grouping Plants",
+      "youtube": "UJuTMe2to2c",
+      "Part 1": "atr-sc-4-01.mp3",
+      "Part 2": "atr-sc-4-02.mp3",
+      "Workbook": "atr-sc-4-31.mp3"
+    },
+    "2": {
+      "title": "How Seeds Are Scattered",
+      "youtube": "hfz0ccagzHY",
+      "Part 1": "atr-sc-4-03.mp3",
+      "Part 2": "atr-sc-4-04.mp3",
+      "Workbook": "atr-sc-4-32.mp3"
+    },
+    "3": {
+      "title": "Animal Adaptations",
+      "youtube": "fs9Pqg3qTfk",
+      "Part 1": "atr-sc-4-05.mp3",
+      "Part 2": "atr-sc-4-06.mp3",
+      "Workbook": "atr-sc-4-33.mp3"
+    },
+    "4": {
+      "title": "Food Chain",
+      "youtube": "t-FHESMCWiw",
+      "Part 1": "atr-sc-4-07.mp3",
+      "Part 2": "atr-sc-4-08.mp3",
+      "Workbook": "atr-sc-4-34.mp3"
+    },
+    "5": {
+      "title": "Habitats",
+      "youtube": "3giEX02gPBc",
+      "Part 1": "atr-sc-4-09.mp3",
+      "Part 2": "atr-sc-4-10.mp3",
+      "Workbook": "atr-sc-4-35.mp3"
+    },
+    "7": {
+      "title": "Changes on Earth",
+      "youtube": "5bi304tBnb4",
+      "Part 1": "atr-sc-4-13.mp3",
+      "Part 2": "atr-sc-4-14.mp3",
+      "Workbook": "atr-sc-4-37.mp3"
+    },
+    "8": {
+      "title": "Rocks and Minerals",
+      "youtube": "maHce7jiNsA",
+      "Part 1": "atr-sc-4-15.mp3",
+      "Part 2": "atr-sc-4-16.mp3",
+      "Workbook": "atr-sc-4-38.mp3"
+    },
+    "9": {
+      "title": "Changes in Weather",
+      "youtube": "u1gncEi76n8",
+      "Part 1": "atr-sc-4-17.mp3",
+      "Part 2": "atr-sc-4-18.mp3",
+      "Workbook": "atr-sc-4-39.mp3"
+    },
+    "10": {
+      "title": "The Moon, Planets, and Stars",
+      "youtube": "MgXRjboQ4ZY",
+      "Part 1": "atr-sc-4-19.mp3",
+      "Part 2": "atr-sc-4-20.mp3",
+      "Workbook": "atr-sc-4-40.mp3"
+    },
+    "11": {
+      "title": "Exploring Electricity",
+      "youtube": "zpfb2XqspyI",
+      "Part 1": "atr-sc-4-21.mp3",
+      "Part 2": "atr-sc-4-22.mp3",
+      "Workbook": "atr-sc-4-41.mp3"
+    },
+    "12": {
+      "title": "Forces",
+      "youtube": "0hUkk28_MMY",
+      "Part 1": "atr-sc-4-23.mp3",
+      "Part 2": "atr-sc-4-24.mp3",
+      "Workbook": "atr-sc-4-42.mp3"
+    },
+    "13": {
+      "title": "Work",
+      "youtube": "0VjOgbWJP7o",
+      "Part 1": "atr-sc-4-25.mp3",
+      "Part 2": "atr-sc-4-26.mp3",
+      "Workbook": "atr-sc-4-43.mp3"
+    },
+    "14": {
+      "title": "Sources of Heat",
+      "youtube": "D8tqqyEjmBk",
+      "Part 1": "atr-sc-4-27.mp3",
+      "Part 2": "atr-sc-4-28.mp3",
+      "Workbook": "atr-sc-4-44.mp3"
+    },
+    "15": {
+      "title": "Light and Colors",
+      "youtube": "dtrN15aHYCs",
+      "Part 1": "atr-sc-4-29.mp3",
+      "Part 2": "atr-sc-4-30.mp3",
+      "Workbook": "atr-sc-4-45.mp3"
+    },
+    "6": {
+      "title": "Earth's Structure",
+      "youtube": null,
+      "Part 1": "atr-sc-4-11.mp3",
+      "Part 2": "atr-sc-4-12.mp3",
+      "Workbook": null
+    }
+  }
+}

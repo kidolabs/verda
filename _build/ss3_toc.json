@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "part": "We Live Together",
+    "title": "Types of Groups",
+    "start": 10
+  },
+  {
+    "lesson": 2,
+    "part": "We Live Together",
+    "title": "Living in a Neighborhood",
+    "start": 16
+  },
+  {
+    "lesson": 3,
+    "part": "We Live Together",
+    "title": "Types of Communities",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "part": "How Governments Work",
+    "title": "We Are Citizens",
+    "start": 30
+  },
+  {
+    "lesson": 5,
+    "part": "How Governments Work",
+    "title": "Voting for Leaders",
+    "start": 36
+  },
+  {
+    "lesson": 6,
+    "part": "How Governments Work",
+    "title": "Working for Justice",
+    "start": 42
+  },
+  {
+    "lesson": 7,
+    "part": "America Long Ago",
+    "title": "The First Americans",
+    "start": 50
+  },
+  {
+    "lesson": 8,
+    "part": "America Long Ago",
+    "title": "Explorers and Early Americans",
+    "start": 56
+  },
+  {
+    "lesson": 9,
+    "part": "America Long Ago",
+    "title": "A New Country Is Born",
+    "start": 62
+  },
+  {
+    "lesson": 10,
+    "part": "The World of Work and Money",
+    "title": "Producers and Consumers",
+    "start": 70
+  },
+  {
+    "lesson": 11,
+    "part": "The World of Work and Money",
+    "title": "From Farm to You",
+    "start": 76
+  },
+  {
+    "lesson": 12,
+    "part": "The World of Work and Money",
+    "title": "Countries Trade Goods",
+    "start": 82
+  },
+  {
+    "lesson": 13,
+    "part": "About Our Earth",
+    "title": "Weather and Climate",
+    "start": 90
+  },
+  {
+    "lesson": 14,
+    "part": "About Our Earth",
+    "title": "Our Earth",
+    "start": 96
+  },
+  {
+    "lesson": 15,
+    "part": "About Our Earth",
+    "title": "We Change Our Environment",
+    "start": 102
+  }
+]

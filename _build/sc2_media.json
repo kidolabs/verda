@@ -1,0 +1,114 @@
+{
+  "code": "sc2",
+  "url": "https://wcbooks.cafe24.com/media/american-textbook-reading-sc2.html",
+  "mp3_dir": "atr-sc-2",
+  "cookie": "CUPID=42e4fa83a9cbfa5bf27746aa248c57b3",
+  "n_lessons": 15,
+  "lessons": {
+    "1": {
+      "title": "What Animals Need to Grow",
+      "youtube": "saVLZJQyiLc",
+      "Part 1": "atr-sc-2-01.mp3",
+      "Part 2": "atr-sc-2-02.mp3",
+      "Workbook": "atr-sc-2-31.mp3"
+    },
+    "2": {
+      "title": "Living Things vs Nonliving Things",
+      "youtube": "XWyTndOCzSg",
+      "Part 1": "atr-sc-2-03.mp3",
+      "Part 2": "atr-sc-2-04.mp3",
+      "Workbook": "atr-sc-2-32.mp3"
+    },
+    "3": {
+      "title": "Adaptations for Survival",
+      "youtube": "serA5khGRvM",
+      "Part 1": "atr-sc-2-05.mp3",
+      "Part 2": "atr-sc-2-06.mp3",
+      "Workbook": "atr-sc-2-33.mp3"
+    },
+    "4": {
+      "title": "The Human Life Cycle",
+      "youtube": "feTaVkZr5K4",
+      "Part 1": "atr-sc-2-07.mp3",
+      "Part 2": "atr-sc-2-08.mp3",
+      "Workbook": "atr-sc-2-34.mp3"
+    },
+    "5": {
+      "title": "Weather",
+      "youtube": "jikceF3EElE",
+      "Part 1": "atr-sc-2-09.mp3",
+      "Part 2": "atr-sc-2-10.mp3",
+      "Workbook": "atr-sc-2-35.mp3"
+    },
+    "6": {
+      "title": "Measuring the Weather",
+      "youtube": "phSYNiOzmec",
+      "Part 1": "atr-sc-2-11.mp3",
+      "Part 2": "atr-sc-2-12.mp3",
+      "Workbook": "atr-sc-2-36.mp3"
+    },
+    "7": {
+      "title": "Clouds and Rain",
+      "youtube": "-siA4xjtiyY",
+      "Part 1": "atr-sc-2-13.mp3",
+      "Part 2": "atr-sc-2-14.mp3",
+      "Workbook": "atr-sc-2-37.mp3"
+    },
+    "8": {
+      "title": "Seasons",
+      "youtube": "Uwk69VA0b0M",
+      "Part 1": "atr-sc-2-15.mp3",
+      "Part 2": "atr-sc-2-16.mp3",
+      "Workbook": "atr-sc-2-38.mp3"
+    },
+    "9": {
+      "title": "The Sky",
+      "youtube": "NPjYVqjGk2Y",
+      "Part 1": "atr-sc-2-17.mp3",
+      "Part 2": "atr-sc-2-18.mp3",
+      "Workbook": "atr-sc-2-39.mp3"
+    },
+    "10": {
+      "title": "Heat",
+      "youtube": "WKFot38PFBg",
+      "Part 1": "atr-sc-2-19.mp3",
+      "Part 2": "atr-sc-2-20.mp3",
+      "Workbook": "atr-sc-2-40.mp3"
+    },
+    "11": {
+      "title": "Light",
+      "youtube": "lifu9RIpLgw",
+      "Part 1": "atr-sc-2-21.mp3",
+      "Part 2": "atr-sc-2-22.mp3",
+      "Workbook": "atr-sc-2-41.mp3"
+    },
+    "12": {
+      "title": "Sound",
+      "youtube": "ezMdZ4rZIjA",
+      "Part 1": "atr-sc-2-23.mp3",
+      "Part 2": "atr-sc-2-24.mp3",
+      "Workbook": "atr-sc-2-42.mp3"
+    },
+    "13": {
+      "title": "Electricity",
+      "youtube": "F25bDrYk5KU",
+      "Part 1": "atr-sc-2-25.mp3",
+      "Part 2": "atr-sc-2-26.mp3",
+      "Workbook": "atr-sc-2-43.mp3"
+    },
+    "14": {
+      "title": "Motion",
+      "youtube": "d2TIFSpUSSY",
+      "Part 1": "atr-sc-2-27.mp3",
+      "Part 2": "atr-sc-2-28.mp3",
+      "Workbook": "atr-sc-2-44.mp3"
+    },
+    "15": {
+      "title": "Magnets",
+      "youtube": "AhI2KFMRyGw",
+      "Part 1": "atr-sc-2-29.mp3",
+      "Part 2": "atr-sc-2-30.mp3",
+      "Workbook": "atr-sc-2-45.mp3"
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "title": "American Textbook Reading — Social Studies 3",
+  "lessons": [
+    {
+      "lesson": 1,
+      "part": "We Live Together",
+      "title": "Types of Groups",
+      "pages": [
+        10,
+        11,
+        14
+      ],
+      "audio_on": {
+        "10": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-01.mp3"
+        },
+        "14": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-02.mp3"
+        }
+      },
+      "youtube": "BqwtjH1OV3Q"
+    },
+    {
+      "lesson": 2,
+      "part": "We Live Together",
+      "title": "Living in a Neighborhood",
+      "pages": [
+        16,
+        17,
+        20
+      ],
+      "audio_on": {
+        "16": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-03.mp3"
+        },
+        "20": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-04.mp3"
+        }
+      },
+      "youtube": "ZBtA2dnEgmA"
+    },
+    {
+      "lesson": 3,
+      "part": "We Live Together",
+      "title": "Types of Communities",
+      "pages": [
+        22,
+        23,
+        26
+      ],
+      "audio_on": {
+        "26": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-06.mp3"
+        }
+      },
+      "youtube": "U_mpHEiOJIY"
+    },
+    {
+      "lesson": 4,
+      "part": "How Governments Work",
+      "title": "We Are Citizens",
+      "pages": [
+        30,
+        31,
+        34
+      ],
+      "audio_on": {
+        "30": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-07.mp3"
+        },
+        "34": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-08.mp3"
+        }
+      },
+      "youtube": "jJHlRWDLx9Q"
+    },
+    {
+      "lesson": 5,
+      "part": "How Governments Work",
+      "title": "Voting for Leaders",
+      "pages": [
+        36,
+        37,
+        40
+      ],
+      "audio_on": {
+        "36": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-09.mp3"
+        }
+      },
+      "youtube": "GvKRt5kHFAM"
+    },
+    {
+      "lesson": 6,
+      "part": "How Governments Work",
+      "title": "Working for Justice",
+      "pages": [
+        42,
+        43,
+        46
+      ],
+      "audio_on": {
+        "42": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-11.mp3"
+        },
+        "46": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-12.mp3"
+        }
+      },
+      "youtube": "y3SOQ4f9dyk"
+    },
+    {
+      "lesson": 7,
+      "part": "America Long Ago",
+      "title": "The First Americans",
+      "pages": [
+        50,
+        51,
+        54
+      ],
+      "audio_on": {
+        "50": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-13.mp3"
+        },
+        "54": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-14.mp3"
+        }
+      },
+      "youtube": "6_F-ZLd75iU"
+    },
+    {
+      "lesson": 8,
+      "part": "America Long Ago",
+      "title": "Explorers and Early Americans",
+      "pages": [
+        56,
+        57,
+        60
+      ],
+      "audio_on": {
+        "56": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-15.mp3"
+        },
+        "60": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-16.mp3"
+        }
+      },
+      "youtube": "5Axhz1HqOh8"
+    },
+    {
+      "lesson": 9,
+      "part": "America Long Ago",
+      "title": "A New Country Is Born",
+      "pages": [
+        62,
+        63,
+        66
+      ],
+      "audio_on": {
+        "62": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-17.mp3"
+        },
+        "66": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-18.mp3"
+        }
+      },
+      "youtube": "oklfSCHSO5c"
+    },
+    {
+      "lesson": 10,
+      "part": "The World of Work and Money",
+      "title": "Producers and Consumers",
+      "pages": [
+        70,
+        71,
+        74
+      ],
+      "audio_on": {
+        "70": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-19.mp3"
+        },
+        "74": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-20.mp3"
+        }
+      },
+      "youtube": "ausYpWBRwzI"
+    },
+    {
+      "lesson": 11,
+      "part": "The World of Work and Money",
+      "title": "From Farm to You",
+      "pages": [
+        76,
+        77,
+        80
+      ],
+      "audio_on": {
+        "76": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-21.mp3"
+        },
+        "80": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-22.mp3"
+        }
+      },
+      "youtube": "p_D8_naPakc"
+    },
+    {
+      "lesson": 12,
+      "part": "The World of Work and Money",
+      "title": "Countries Trade Goods",
+      "pages": [
+        82,
+        83,
+        86
+      ],
+      "audio_on": {
+        "82": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-23.mp3"
+        },
+        "86": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-24.mp3"
+        }
+      },
+      "youtube": "-wvYiER39TQ"
+    },
+    {
+      "lesson": 13,
+      "part": "About Our Earth",
+      "title": "Weather and Climate",
+      "pages": [
+        90,
+        91,
+        94
+      ],
+      "audio_on": {
+        "90": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-25.mp3"
+        },
+        "94": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-26.mp3"
+        }
+      },
+      "youtube": "Hlkqj4Aiwj0"
+    },
+    {
+      "lesson": 14,
+      "part": "About Our Earth",
+      "title": "Our Earth",
+      "pages": [
+        96,
+        97,
+        100
+      ],
+      "audio_on": {
+        "96": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-27.mp3"
+        },
+        "100": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-28.mp3"
+        }
+      },
+      "youtube": "WcjfjEfnsck"
+    },
+    {
+      "lesson": 15,
+      "part": "About Our Earth",
+      "title": "We Change Our Environment",
+      "pages": [
+        102,
+        103,
+        106
+      ],
+      "audio_on": {
+        "102": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-3-29.mp3"
+        },
+        "106": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-3-30.mp3"
+        }
+      },
+      "youtube": "WWgwsUjJW30"
+    }
+  ]
+}

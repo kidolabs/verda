@@ -1,0 +1,304 @@
+{
+  "title": "American Textbook Reading — Social Studies 4",
+  "lessons": [
+    {
+      "lesson": 1,
+      "part": "We Live Together",
+      "title": "Different Cultures",
+      "pages": [
+        10,
+        11,
+        14
+      ],
+      "audio_on": {
+        "10": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-01.mp3"
+        },
+        "14": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-02.mp3"
+        }
+      },
+      "youtube": "bkaLrclFTZI"
+    },
+    {
+      "lesson": 2,
+      "part": "We Live Together",
+      "title": "Various Celebrations",
+      "pages": [
+        16,
+        17,
+        20
+      ],
+      "audio_on": {
+        "16": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-03.mp3"
+        }
+      },
+      "youtube": "2Vg2C3EiLIA"
+    },
+    {
+      "lesson": 3,
+      "part": "We Live Together",
+      "title": "We Are Part of the World",
+      "pages": [
+        22,
+        23,
+        26
+      ],
+      "audio_on": {
+        "22": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-05.mp3"
+        },
+        "26": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-06.mp3"
+        }
+      },
+      "youtube": "CZ48CoJoXc8"
+    },
+    {
+      "lesson": 4,
+      "part": "How Governments Work",
+      "title": "Local Government",
+      "pages": [
+        30,
+        31,
+        34
+      ],
+      "audio_on": {
+        "30": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-07.mp3"
+        },
+        "34": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-08.mp3"
+        }
+      },
+      "youtube": "XXAeXYv3FyA"
+    },
+    {
+      "lesson": 5,
+      "part": "How Governments Work",
+      "title": "Federal Government",
+      "pages": [
+        36,
+        37,
+        40
+      ],
+      "audio_on": {
+        "36": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-09.mp3"
+        },
+        "40": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-10.mp3"
+        }
+      },
+      "youtube": "fL0RqgJk1Qk"
+    },
+    {
+      "lesson": 6,
+      "part": "How Governments Work",
+      "title": "American Heritage",
+      "pages": [
+        42,
+        43,
+        46
+      ],
+      "audio_on": {
+        "42": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-11.mp3"
+        },
+        "46": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-12.mp3"
+        }
+      },
+      "youtube": "_23j5WVX4js"
+    },
+    {
+      "lesson": 7,
+      "part": "America Long Ago",
+      "title": "Go West",
+      "pages": [
+        50,
+        51,
+        54
+      ],
+      "audio_on": {
+        "50": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-13.mp3"
+        },
+        "54": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-14.mp3"
+        }
+      },
+      "youtube": "b5JNzInsTX4"
+    },
+    {
+      "lesson": 8,
+      "part": "America Long Ago",
+      "title": "The End of Slavery",
+      "pages": [
+        56,
+        57,
+        60
+      ],
+      "audio_on": {
+        "56": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-15.mp3"
+        }
+      },
+      "youtube": "VT_jyQZbxq8"
+    },
+    {
+      "lesson": 9,
+      "part": "America Long Ago",
+      "title": "Changes in People's Lives",
+      "pages": [
+        62,
+        63,
+        66
+      ],
+      "audio_on": {
+        "62": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-17.mp3"
+        },
+        "66": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-18.mp3"
+        }
+      },
+      "youtube": null
+    },
+    {
+      "lesson": 10,
+      "part": "The World of Work and Money",
+      "title": "Work and Income",
+      "pages": [
+        70,
+        71,
+        74
+      ],
+      "audio_on": {
+        "70": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-19.mp3"
+        },
+        "74": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-20.mp3"
+        }
+      },
+      "youtube": "s-VXs59t7Ec"
+    },
+    {
+      "lesson": 11,
+      "part": "The World of Work and Money",
+      "title": "Making Money Choices",
+      "pages": [
+        76,
+        77,
+        80
+      ],
+      "audio_on": {
+        "76": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-21.mp3"
+        },
+        "80": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-22.mp3"
+        }
+      },
+      "youtube": "fZDdwAXTX7M"
+    },
+    {
+      "lesson": 12,
+      "part": "The World of Work and Money",
+      "title": "In the Bank",
+      "pages": [
+        82,
+        83,
+        86
+      ],
+      "audio_on": {
+        "82": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-23.mp3"
+        },
+        "86": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-24.mp3"
+        }
+      },
+      "youtube": "1rhJCnYmx40"
+    },
+    {
+      "lesson": 13,
+      "part": "About Our Earth",
+      "title": "Maps and Locations",
+      "pages": [
+        90,
+        91,
+        94
+      ],
+      "audio_on": {
+        "94": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-26.mp3"
+        }
+      },
+      "youtube": "2fi9ygJYLuo"
+    },
+    {
+      "lesson": 14,
+      "part": "About Our Earth",
+      "title": "Various Landforms",
+      "pages": [
+        96,
+        97,
+        100
+      ],
+      "audio_on": {
+        "96": {
+          "label": "Part 1 · Vocabulary",
+          "mp3": "atr-ss-4-27.mp3"
+        },
+        "100": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-28.mp3"
+        }
+      },
+      "youtube": "rCrCsUNuSqk"
+    },
+    {
+      "lesson": 15,
+      "part": "About Our Earth",
+      "title": "Earth's Resources",
+      "pages": [
+        102,
+        103,
+        106
+      ],
+      "audio_on": {
+        "106": {
+          "label": "Part 2 · Reading",
+          "mp3": "atr-ss-4-30.mp3"
+        }
+      },
+      "youtube": null
+    }
+  ]
+}

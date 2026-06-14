@@ -1,0 +1,114 @@
+{
+  "code": "sc3",
+  "url": "https://wcbooks.cafe24.com/media/american-textbook-reading-sc3.html",
+  "mp3_dir": "atr-sc-3",
+  "cookie": "CUPID=42e4fa83a9cbfa5bf27746aa248c57b3",
+  "n_lessons": 15,
+  "lessons": {
+    "1": {
+      "title": "Living and Nonliving Things",
+      "youtube": "Ho2W_yOqHso",
+      "Part 1": "atr-sc-3-01.mp3",
+      "Part 2": "atr-sc-3-02.mp3",
+      "Workbook": "atr-sc-3-31.mp3"
+    },
+    "2": {
+      "title": "Plant Parts",
+      "youtube": "-T8y9AZhIMQ",
+      "Part 1": "atr-sc-3-03.mp3",
+      "Part 2": "atr-sc-3-04.mp3",
+      "Workbook": "atr-sc-3-32.mp3"
+    },
+    "3": {
+      "title": "Growth and Change",
+      "youtube": "gEQxhfNLmd0",
+      "Part 1": "atr-sc-3-05.mp3",
+      "Part 2": "atr-sc-3-06.mp3",
+      "Workbook": "atr-sc-3-33.mp3"
+    },
+    "4": {
+      "title": "Animals with and without Backbones",
+      "youtube": "oRs6z6SW_nA",
+      "Part 1": "atr-sc-3-07.mp3",
+      "Part 2": "atr-sc-3-08.mp3",
+      "Workbook": "atr-sc-3-34.mp3"
+    },
+    "5": {
+      "title": "Plant Adaptations",
+      "youtube": "xQkbQ0F0ViU",
+      "Part 1": "atr-sc-3-09.mp3",
+      "Part 2": "atr-sc-3-10.mp3",
+      "Workbook": "atr-sc-3-35.mp3"
+    },
+    "6": {
+      "title": "Soil",
+      "youtube": "Ok5kL8x0NmE",
+      "Part 1": "atr-sc-3-11.mp3",
+      "Part 2": "atr-sc-3-12.mp3",
+      "Workbook": "atr-sc-3-36.mp3"
+    },
+    "7": {
+      "title": "Fossils",
+      "youtube": "crEalibnkV0",
+      "Part 1": "atr-sc-3-13.mp3",
+      "Part 2": "atr-sc-3-14.mp3",
+      "Workbook": "atr-sc-3-37.mp3"
+    },
+    "8": {
+      "title": "Different Types of Natural Resources",
+      "youtube": "LCMsDwaHpSo",
+      "Part 1": "atr-sc-3-15.mp3",
+      "Part 2": "atr-sc-3-16.mp3",
+      "Workbook": "atr-sc-3-38.mp3"
+    },
+    "9": {
+      "title": "Parts of Weather",
+      "youtube": "UFCS4rDebTU",
+      "Part 1": "atr-sc-3-17.mp3",
+      "Part 2": "atr-sc-3-18.mp3",
+      "Workbook": "atr-sc-3-39.mp3"
+    },
+    "10": {
+      "title": "Day, Night, and Seasons",
+      "youtube": "JCHmUbOesOU",
+      "Part 1": "atr-sc-3-19.mp3",
+      "Part 2": "atr-sc-3-20.mp3",
+      "Workbook": "atr-sc-3-40.mp3"
+    },
+    "11": {
+      "title": "Describing Matter",
+      "youtube": "SHFlc-usZ8E",
+      "Part 1": "atr-sc-3-21.mp3",
+      "Part 2": "atr-sc-3-22.mp3",
+      "Workbook": "atr-sc-3-41.mp3"
+    },
+    "12": {
+      "title": "Changing Matter",
+      "youtube": "oYjNmBPxIFU",
+      "Part 1": "atr-sc-3-23.mp3",
+      "Part 2": "atr-sc-3-24.mp3",
+      "Workbook": "atr-sc-3-42.mp3"
+    },
+    "13": {
+      "title": "Exploring Magnets",
+      "youtube": "Qc447JQV_zM",
+      "Part 1": "atr-sc-3-25.mp3",
+      "Part 2": "atr-sc-3-26.mp3",
+      "Workbook": "atr-sc-3-43.mp3"
+    },
+    "14": {
+      "title": "Position and Motion",
+      "youtube": "6ggdd9W8qJI",
+      "Part 1": "atr-sc-3-27.mp3",
+      "Part 2": "atr-sc-3-28.mp3",
+      "Workbook": "atr-sc-3-44.mp3"
+    },
+    "15": {
+      "title": "Sound Waves",
+      "youtube": "DRkOve9EDnY",
+      "Part 1": "atr-sc-3-29.mp3",
+      "Part 2": "atr-sc-3-30.mp3",
+      "Workbook": "atr-sc-3-45.mp3"
+    }
+  }
+}

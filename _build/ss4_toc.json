@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "part": "We Live Together",
+    "title": "Different Cultures",
+    "start": 10
+  },
+  {
+    "lesson": 2,
+    "part": "We Live Together",
+    "title": "Various Celebrations",
+    "start": 16
+  },
+  {
+    "lesson": 3,
+    "part": "We Live Together",
+    "title": "We Are Part of the World",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "part": "How Governments Work",
+    "title": "Local Government",
+    "start": 30
+  },
+  {
+    "lesson": 5,
+    "part": "How Governments Work",
+    "title": "Federal Government",
+    "start": 36
+  },
+  {
+    "lesson": 6,
+    "part": "How Governments Work",
+    "title": "American Heritage",
+    "start": 42
+  },
+  {
+    "lesson": 7,
+    "part": "America Long Ago",
+    "title": "Go West",
+    "start": 50
+  },
+  {
+    "lesson": 8,
+    "part": "America Long Ago",
+    "title": "The End of Slavery",
+    "start": 56
+  },
+  {
+    "lesson": 9,
+    "part": "America Long Ago",
+    "title": "Changes in People's Lives",
+    "start": 62
+  },
+  {
+    "lesson": 10,
+    "part": "The World of Work and Money",
+    "title": "Work and Income",
+    "start": 70
+  },
+  {
+    "lesson": 11,
+    "part": "The World of Work and Money",
+    "title": "Making Money Choices",
+    "start": 76
+  },
+  {
+    "lesson": 12,
+    "part": "The World of Work and Money",
+    "title": "In the Bank",
+    "start": 82
+  },
+  {
+    "lesson": 13,
+    "part": "About Our Earth",
+    "title": "Maps and Locations",
+    "start": 90
+  },
+  {
+    "lesson": 14,
+    "part": "About Our Earth",
+    "title": "Various Landforms",
+    "start": 96
+  },
+  {
+    "lesson": 15,
+    "part": "About Our Earth",
+    "title": "Earth's Resources",
+    "start": 102
+  }
+]

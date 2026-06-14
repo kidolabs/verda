@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "part": "Life Science",
+    "title": "What Animals Need to Grow",
+    "start": 10
+  },
+  {
+    "lesson": 2,
+    "part": "Life Science",
+    "title": "Living Things vs Nonliving Things",
+    "start": 16
+  },
+  {
+    "lesson": 3,
+    "part": "Life Science",
+    "title": "Adaptations for Survival",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "part": "Life Science",
+    "title": "The Human Life Cycle",
+    "start": 28
+  },
+  {
+    "lesson": 5,
+    "part": "Earth Science",
+    "title": "Weather",
+    "start": 36
+  },
+  {
+    "lesson": 6,
+    "part": "Earth Science",
+    "title": "Measuring the Weather",
+    "start": 42
+  },
+  {
+    "lesson": 7,
+    "part": "Earth Science",
+    "title": "Clouds and Rain",
+    "start": 48
+  },
+  {
+    "lesson": 8,
+    "part": "Earth Science",
+    "title": "Seasons",
+    "start": 54
+  },
+  {
+    "lesson": 9,
+    "part": "Earth Science",
+    "title": "The Sky",
+    "start": 60
+  },
+  {
+    "lesson": 10,
+    "part": "Physical Science",
+    "title": "Heat",
+    "start": 68
+  },
+  {
+    "lesson": 11,
+    "part": "Physical Science",
+    "title": "Light",
+    "start": 74
+  },
+  {
+    "lesson": 12,
+    "part": "Physical Science",
+    "title": "Sound",
+    "start": 80
+  },
+  {
+    "lesson": 13,
+    "part": "Physical Science",
+    "title": "Electricity",
+    "start": 86
+  },
+  {
+    "lesson": 14,
+    "part": "Physical Science",
+    "title": "Motion",
+    "start": 92
+  },
+  {
+    "lesson": 15,
+    "part": "Physical Science",
+    "title": "Magnets",
+    "start": 98
+  }
+]

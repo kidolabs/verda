@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "part": "Home, School, and Neighborhood",
+    "title": "The First Americans",
+    "start": 10
+  },
+  {
+    "lesson": 2,
+    "part": "Home, School, and Neighborhood",
+    "title": "Celebration of Holidays",
+    "start": 16
+  },
+  {
+    "lesson": 3,
+    "part": "Home, School, and Neighborhood",
+    "title": "People Find New Homes",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "part": "We Are Good Citizens",
+    "title": "The United States Government",
+    "start": 30
+  },
+  {
+    "lesson": 5,
+    "part": "We Are Good Citizens",
+    "title": "The Pledge of Allegiance",
+    "start": 36
+  },
+  {
+    "lesson": 6,
+    "part": "We Are Good Citizens",
+    "title": "The Symbols of the United States",
+    "start": 42
+  },
+  {
+    "lesson": 7,
+    "part": "Everything Changes",
+    "title": "Changes in Transportation",
+    "start": 50
+  },
+  {
+    "lesson": 8,
+    "part": "Everything Changes",
+    "title": "People Start Coming to America",
+    "start": 56
+  },
+  {
+    "lesson": 9,
+    "part": "Everything Changes",
+    "title": "The Beginning of the United States",
+    "start": 62
+  },
+  {
+    "lesson": 10,
+    "part": "People Work",
+    "title": "Jobs",
+    "start": 70
+  },
+  {
+    "lesson": 11,
+    "part": "People Work",
+    "title": "From Factory to You",
+    "start": 76
+  },
+  {
+    "lesson": 12,
+    "part": "People Work",
+    "title": "Visiting the Market",
+    "start": 82
+  },
+  {
+    "lesson": 13,
+    "part": "Where We Live",
+    "title": "City, Town, and Suburb",
+    "start": 90
+  },
+  {
+    "lesson": 14,
+    "part": "Where We Live",
+    "title": "Our Resources",
+    "start": 96
+  },
+  {
+    "lesson": 15,
+    "part": "Where We Live",
+    "title": "This is Our World",
+    "start": 102
+  }
+]

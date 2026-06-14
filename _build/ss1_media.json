@@ -1,0 +1,114 @@
+{
+  "code": "ss1",
+  "url": "https://wcbooks.cafe24.com/media/american-textbook-reading-ss1.html",
+  "mp3_dir": "atr-ss-1",
+  "cookie": "CUPID=42e4fa83a9cbfa5bf27746aa248c57b3",
+  "n_lessons": 15,
+  "lessons": {
+    "1": {
+      "title": "Family and Home",
+      "youtube": "CkcG4P-AcjA",
+      "Part 1": "atr-ss-1-01.mp3",
+      "Part 2": "atr-ss-1-02.mp3",
+      "Workbook": "atr-ss-1-31.mp3"
+    },
+    "2": {
+      "title": "Time for School",
+      "youtube": "ID9T4EQ-9Io",
+      "Part 1": "atr-ss-1-03.mp3",
+      "Part 2": "atr-ss-1-04.mp3",
+      "Workbook": "atr-ss-1-32.mp3"
+    },
+    "3": {
+      "title": "Community",
+      "youtube": "gfSjMMXVAiA",
+      "Part 1": "atr-ss-1-05.mp3",
+      "Part 2": "atr-ss-1-06.mp3",
+      "Workbook": "atr-ss-1-33.mp3"
+    },
+    "4": {
+      "title": "People Need Law",
+      "youtube": "mZz1aNeMSxI",
+      "Part 1": "atr-ss-1-07.mp3",
+      "Part 2": "atr-ss-1-08.mp3",
+      "Workbook": "atr-ss-1-34.mp3"
+    },
+    "5": {
+      "title": "What Can Citizens Do?",
+      "youtube": "vxp-fBC8FFs",
+      "Part 1": "atr-ss-1-09.mp3",
+      "Part 2": "atr-ss-1-10.mp3",
+      "Workbook": "atr-ss-1-35.mp3"
+    },
+    "6": {
+      "title": "Choosing Community Leaders",
+      "youtube": "2kx84Ykf-dA",
+      "Part 1": "atr-ss-1-11.mp3",
+      "Part 2": "atr-ss-1-12.mp3",
+      "Workbook": "atr-ss-1-36.mp3"
+    },
+    "7": {
+      "title": "Things Change with Time",
+      "youtube": "hkn4g2RSDDE",
+      "Part 1": "atr-ss-1-13.mp3",
+      "Part 2": "atr-ss-1-14.mp3",
+      "Workbook": "atr-ss-1-37.mp3"
+    },
+    "8": {
+      "title": "Changes in Family Life",
+      "youtube": "I8w1CpAnT2k",
+      "Part 1": "atr-ss-1-15.mp3",
+      "Part 2": "atr-ss-1-16.mp3",
+      "Workbook": "atr-ss-1-38.mp3"
+    },
+    "9": {
+      "title": "Changes in Communication",
+      "youtube": "9zxwSNaTmc0",
+      "Part 1": "atr-ss-1-17.mp3",
+      "Part 2": "atr-ss-1-18.mp3",
+      "Workbook": "atr-ss-1-39.mp3"
+    },
+    "10": {
+      "title": "Needs and Wants",
+      "youtube": "tNCVMQPRbBg",
+      "Part 1": "atr-ss-1-19.mp3",
+      "Part 2": "atr-ss-1-20.mp3",
+      "Workbook": "atr-ss-1-40.mp3"
+    },
+    "11": {
+      "title": "Goods and Services",
+      "youtube": "B8B07E4On5E",
+      "Part 1": "atr-ss-1-21.mp3",
+      "Part 2": "atr-ss-1-22.mp3",
+      "Workbook": "atr-ss-1-41.mp3"
+    },
+    "12": {
+      "title": "Spending and Saving",
+      "youtube": "d88wZfTrxWE",
+      "Part 1": "atr-ss-1-23.mp3",
+      "Part 2": "atr-ss-1-24.mp3",
+      "Workbook": "atr-ss-1-42.mp3"
+    },
+    "13": {
+      "title": "Here on Earth",
+      "youtube": "KRfABAUcwK0",
+      "Part 1": "atr-ss-1-25.mp3",
+      "Part 2": "atr-ss-1-26.mp3",
+      "Workbook": "atr-ss-1-43.mp3"
+    },
+    "14": {
+      "title": "Weather and Seasons",
+      "youtube": "z4QGzFzUn9A",
+      "Part 1": "atr-ss-1-27.mp3",
+      "Part 2": "atr-ss-1-28.mp3",
+      "Workbook": "atr-ss-1-44.mp3"
+    },
+    "15": {
+      "title": "Land and Water",
+      "youtube": "26186SCFtEo",
+      "Part 1": "atr-ss-1-29.mp3",
+      "Part 2": "atr-ss-1-30.mp3",
+      "Workbook": "atr-ss-1-45.mp3"
+    }
+  }
+}

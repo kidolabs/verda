@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "part": "Life Science",
+    "title": "Grouping Plants",
+    "start": 10
+  },
+  {
+    "lesson": 2,
+    "part": "Life Science",
+    "title": "How Seeds Are Scattered",
+    "start": 16
+  },
+  {
+    "lesson": 3,
+    "part": "Life Science",
+    "title": "Animal Adaptations",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "part": "Life Science",
+    "title": "Food Chain",
+    "start": 28
+  },
+  {
+    "lesson": 5,
+    "part": "Life Science",
+    "title": "Habitats",
+    "start": 34
+  },
+  {
+    "lesson": 6,
+    "part": "Earth Science",
+    "title": "Earth's Structure",
+    "start": 42
+  },
+  {
+    "lesson": 7,
+    "part": "Earth Science",
+    "title": "Changes on Earth",
+    "start": 48
+  },
+  {
+    "lesson": 8,
+    "part": "Earth Science",
+    "title": "Rocks and Minerals",
+    "start": 54
+  },
+  {
+    "lesson": 9,
+    "part": "Earth Science",
+    "title": "Changes in Weather",
+    "start": 60
+  },
+  {
+    "lesson": 10,
+    "part": "Earth Science",
+    "title": "The Moon, Planets, and Stars",
+    "start": 66
+  },
+  {
+    "lesson": 11,
+    "part": "Physical Science",
+    "title": "Exploring Electricity",
+    "start": 74
+  },
+  {
+    "lesson": 12,
+    "part": "Physical Science",
+    "title": "Forces",
+    "start": 80
+  },
+  {
+    "lesson": 13,
+    "part": "Physical Science",
+    "title": "Work",
+    "start": 86
+  },
+  {
+    "lesson": 14,
+    "part": "Physical Science",
+    "title": "Sources of Heat",
+    "start": 92
+  },
+  {
+    "lesson": 15,
+    "part": "Physical Science",
+    "title": "Light and Colors",
+    "start": 98
+  }
+]
