@@ -56,13 +56,13 @@
         "26": {
           "label": "Part 2 · Reading",
           "mp3": "atr-ss-3-06.mp3"
+        },
+        "22": {
+          "label": "Full Unit",
+          "mp3": "unit3-full.mp3"
         }
       },
-      "youtube": "U_mpHEiOJIY",
-      "full": {
-        "label": "Full Unit",
-        "mp3": "unit3-full.mp3"
-      }
+      "youtube": "U_mpHEiOJIY"
     },
     {
       "lesson": 4,
@@ -98,13 +98,13 @@
         "36": {
           "label": "Part 1 · Vocabulary",
           "mp3": "atr-ss-3-09.mp3"
+        },
+        "40": {
+          "label": "Full Unit",
+          "mp3": "unit5-full.mp3"
         }
       },
-      "youtube": "GvKRt5kHFAM",
-      "full": {
-        "label": "Full Unit",
-        "mp3": "unit5-full.mp3"
-      }
+      "youtube": "GvKRt5kHFAM"
     },
     {
       "lesson": 6,

@@ -35,13 +35,13 @@
         "16": {
           "label": "Part 1 · Vocabulary",
           "mp3": "atr-ss-4-03.mp3"
+        },
+        "20": {
+          "label": "Full Unit",
+          "mp3": "unit2-full.mp3"
         }
       },
-      "youtube": "2Vg2C3EiLIA",
-      "full": {
-        "label": "Full Unit",
-        "mp3": "unit2-full.mp3"
-      }
+      "youtube": "2Vg2C3EiLIA"
     },
     {
       "lesson": 3,
@@ -161,13 +161,13 @@
         "56": {
           "label": "Part 1 · Vocabulary",
           "mp3": "atr-ss-4-15.mp3"
+        },
+        "60": {
+          "label": "Full Unit",
+          "mp3": "unit8-full.mp3"
         }
       },
-      "youtube": "VT_jyQZbxq8",
-      "full": {
-        "label": "Full Unit",
-        "mp3": "unit8-full.mp3"
-      }
+      "youtube": "VT_jyQZbxq8"
     },
     {
       "lesson": 9,
@@ -266,13 +266,13 @@
         "94": {
           "label": "Part 2 · Reading",
           "mp3": "atr-ss-4-26.mp3"
+        },
+        "90": {
+          "label": "Full Unit",
+          "mp3": "unit13-full.mp3"
         }
       },
-      "youtube": "2fi9ygJYLuo",
-      "full": {
-        "label": "Full Unit",
-        "mp3": "unit13-full.mp3"
-      }
+      "youtube": "2fi9ygJYLuo"
     },
     {
       "lesson": 14,
@@ -308,13 +308,13 @@
         "106": {
           "label": "Part 2 · Reading",
           "mp3": "atr-ss-4-30.mp3"
+        },
+        "102": {
+          "label": "Full Unit",
+          "mp3": "unit15-full.mp3"
         }
       },
-      "youtube": null,
-      "full": {
-        "label": "Full Unit",
-        "mp3": "unit15-full.mp3"
-      }
+      "youtube": null
     }
   ]
 }
